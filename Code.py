@@ -5,7 +5,6 @@ import random
 import pandas as pd
 import csv
 
-#Change the School data here
 df = pd.read_csv("medium_data.csv")
 data = df["reading_time"].tolist()
 
